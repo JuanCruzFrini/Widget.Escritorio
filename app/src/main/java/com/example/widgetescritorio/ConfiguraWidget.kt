@@ -11,6 +11,7 @@ import android.widget.Toast
 
 class ConfiguraWidget : Activity(){
     var widgetId: Int = 10
+
     lateinit var editText: EditText
 
     override fun onCreate(savedInstanceState: Bundle?) {
