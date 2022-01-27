@@ -8,6 +8,8 @@
     android:initialLayout="@layout/widget"
     android:previewImage="@drawable/preview"
     android:resizeMode="horizontal|vertical"
-    android:widgetCategory="home_screen">
+    android:widgetCategory="home_screen"
+    android:configure="com.example.widgetescritorio.ConfiguraWidget">
+<!--    android:configure="com.example.widgetescritorio.ConfiguraWidget"-->
 
 </appwidget-provider>
