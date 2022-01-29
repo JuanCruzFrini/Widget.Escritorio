@@ -18,7 +18,6 @@ class ConfiguraWidget : Activity(){
         super.onCreate(savedInstanceState)
         setContentView(R.layout.configura_widget)
         editText = findViewById<EditText>(R.id.et1)
-
         setResult(RESULT_CANCELED)
         val extras = intent.extras
         if (extras == null) finish()
